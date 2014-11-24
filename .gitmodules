@@ -4,6 +4,7 @@
 [submodule "src/main/webapp/WEB-INF/templates/views/client"]
 	path = src/main/webapp/WEB-INF/templates/views/client
 	url = git@github.com:BoardGame/client.git
-[submodule "src/game"]
-	path = src/game
+    
+[submodule "src/java/game"]
+	path = src/java/game
 	url = git@github.com:BoardGame/game.git
