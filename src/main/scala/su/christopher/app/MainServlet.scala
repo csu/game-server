@@ -13,9 +13,13 @@ class MainServlet extends GameStack {
     jade("client/index", "layout" -> "WEB-INF/layouts/empty.jade", "title" -> "Game")
   }
 
+  post("/game") {
+    game = new Game(params("players").toInt)
+    Ok("Good")
+  }
+
   get("/game") {
-    game = new Game(6)
-    Ok("hello")
+    Ok(game.getNumPlayers())
   }
   
 }
