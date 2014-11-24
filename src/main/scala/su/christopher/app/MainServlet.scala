@@ -15,6 +15,7 @@ class MainServlet extends GameStack {
 
   get("/game") {
     game = new Game(6)
+    Ok("hello")
   }
   
 }

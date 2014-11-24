@@ -21,6 +21,7 @@ object GameBuild extends Build {
       version := Version,
       scalaVersion := ScalaVersion,
       resolvers += Classpaths.typesafeReleases,
+      javaSource in Compile := baseDirectory.value / "src" / "java" / "game" / "src" / "main",
       libraryDependencies ++= Seq(
         "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
