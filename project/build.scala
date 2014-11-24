@@ -8,7 +8,7 @@ import ScalateKeys._
 object GameBuild extends Build {
   val Organization = "su.christopher"
   val Name = "Game"
-  val Version = "0.1.0-SNAPSHOT"
+  val Version = "0.1"
   val ScalaVersion = "2.11.1"
   val ScalatraVersion = "2.3.0"
 
